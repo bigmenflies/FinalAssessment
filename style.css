@@ -1,0 +1,379 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+/*Misc*/
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.tab2 {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.tab3 {
+    display: inline-block;
+    margin-left: 105.5px;
+}
+
+.tab4 {
+    display: inline-block;
+    margin-left: 79px;
+}
+
+hr.seperator {
+    margin: 20px;
+    color: #75858F;
+}
+
+/*Main Page*/
+html#main {
+    background-color: #2B394A;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+
+}
+
+div.details {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+}
+
+div.buttons {
+    text-align: center;
+}
+
+button#btn1 {
+    background-color: #C5D0DD;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+button#btn2 {
+    background-color: #C5D0DD;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+button#btn3 {
+    background-color: #C5D0DD;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+a.btn {
+    text-decoration: none;
+    color: white;
+}
+
+#btn1:hover {
+    background-color: #FC888C;
+    color: black;
+
+}
+
+#btn2:hover {
+    background-color: #FC888C;
+    color: black;
+}
+
+#btn3:hover {
+    background-color: #FC888C;
+    color: black;
+}
+
+.btn:hover {
+    color: black;
+}
+
+footer {
+    text-align: center;
+    margin-top: 400px;
+}
+
+/*Resume Page*/
+div.section1 {
+    background: url(images/resume.jpg) no-repeat center center fixed;
+    background-size: cover;
+    padding-bottom: 50px;
+}
+
+header#head {
+    display: flex;
+    background-color: black;
+    opacity: 0.65;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+div.name {
+    flex: 1;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+div.nav {
+    margin-right: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    padding: 5px;
+}
+
+section#s1 {
+    margin-left: 90px;
+}
+
+h1#Title {
+    margin: auto;
+    text-align: left;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color: #2B394A;
+    font-size: 80px;
+}
+
+div.res {
+    text-align: left;
+    background-color: black;
+    opacity: 0.7;
+    margin-top: 20px;
+    margin-right: 880px;
+    margin-bottom: 50px;
+    padding: 20px;
+    border: 2px solid #FC888C;
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FC888C;
+}
+
+div.section2 {
+    display: flex;
+    padding-bottom: 50px;
+}
+
+section#s2 {
+    flex: 1;
+    margin-right: 250px;
+    margin-left: 100px;
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    color: #2B394A;
+}
+
+section#s3 {
+    margin-right: 200px;
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    color: #2B394A;
+
+}
+
+h2#about {
+    margin-bottom: 20px;
+}
+
+h2#basic {
+    margin-bottom: 20px;
+}
+
+p#Me {
+    border: 2px solid #FC888C;
+    background-color: black;
+    opacity: 0.7;
+    padding: 10px;
+    color: #FC888C;
+}
+
+section#s4 {
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    color: #2B394A;
+}
+
+div.section3 {
+    display: flex;
+    padding-bottom: 50px;
+
+}
+
+section#s5 {
+    flex: 1;
+    text-align: center;
+    margin-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    background-color: #FC888C;
+}
+
+h2#cred {
+    font-size: 28px;
+}
+
+section#s6 {
+    flex: 2;
+    margin-left: 30px;
+    margin-right: 500px;
+    padding-top: 40px;
+}
+
+h2#info {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+}
+
+h3#college {
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    color: #C5D0DD;
+}
+
+p#extra {
+    padding-top: 50px;
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    color: #2B394A;
+}
+
+div.section4 {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    background-color: black;
+    opacity: 0.7;
+    border: 2px solid #FC888C;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    padding-top:50px;
+    padding-bottom: 50px;
+    
+}
+
+section#s7 {
+    text-align: center;
+    margin-left: 550px;
+    margin-right: 550px;
+    border: 2px solid #FC888C;
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-size: 30px;
+    background-color: black;
+    opacity: 0.7;
+    color: #FC888C;
+}
+
+p.reflect {
+    margin-right: 50px;
+    margin-left: 50px;
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    font-style: bold;
+    color: #FC888C;
+}
+
+/*Contact Page*/
+div.contact {
+    display: block;
+}
+
+.required {
+    color: red;
+}
+
+#errorEma {
+    color: red;
+    display: inline-block;
+}
+
+#Details {
+    display: grid;
+}
+
+.reveal-if-active {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 16px;
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.reveal-if-active label {
+    display: block;
+    margin: 0 0 3px 0;
+}
+
+.reveal-if-active input[type=text] {
+    width: 100%;
+}
+
+input[type=radio]:checked~.reveal-if-active,
+input[type=checkbox]:checked~.reveal-if-active {
+    opacity: 1;
+    max-height: 100px;
+    padding: 10px 20px;
+    transform: scale(1);
+    overflow: visible;
+}
+
+/*Honesty Page*/
+html#honesty {
+    background-color: #2B394A;
+    background-size: cover;
+    color: white;
+
+}
+
+h2#heading2 {
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+div.statement {
+    font-family: 'Martel', serif;
+    font-weight: 400;
+    margin: 50px;
+    padding-right: 600px;
+}

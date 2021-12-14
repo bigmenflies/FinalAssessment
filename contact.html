@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html id="resume">
+
+<head>
+    <!--
+    Name: Usaamah Amjad
+    StudentID: 104318209
+    Date: 12/09/2021
+    Professor: Navreet lehal
+    -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=90%, initial-scale=1.0" />
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/light.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" />
+    <link href="https://fonts.googleapis.com/css?family=Karla:400,700|Martel:400,700" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="sec1">
+        <header id="head">
+            <div class="name">USAAMAH AMJAD</div>
+            <div class="nav">
+                <a href="main.html">HOME</a>
+                <a href="contact.html"> CONTACT ME</a>
+            </div>
+        </header>
+    </div>
+    <div class="contact">
+        <section>
+            <h2>Contact Details</h2>
+            <p><span class="required">*</span> Required field</p>
+            <form action="https://formspree.io/f/mayvybqa" method="POST" onsubmit="return validate(event)">
+                <fieldset id="Details">
+                    <label for="Name">
+                        Name<span class="required">*</span>
+                        <input type="text" name="name" id="name" autofocus maxlength="200" required
+                            placeholder="Enter your full name" />
+                    </label>
+                    <label for="email">
+                        Email:<span class="required">* </span><span id="errorEma"></span>
+                        <input type="text" name="email" id="email" autofocus size="60" required placeholder="au1@gmail.com" />
+                    </label>
+                    <label for="address">
+                        Address:<span class="required">*</span>
+                        <input type="text" name="address" id="address" autofocus size="60" required
+                            placeholder="1 Missipi Road" />
+                    </label>
+                    <label for="city">
+                        City:<span class="required">*</span>
+                        <input type="text" name="city" id="city" size="60" autofocus required placeholder="Toronto" />
+                    </label>
+                    <label for="postal">
+                        Postal Code:<span class="required">*</span>
+                        <input type="text" name="postal" id="postal" autofocus size="60"
+                            pattern="^(?!.*[DFIOQU])[A-VXY][0-9][A-Z] ?[0-9][A-Z][0-9]$" required
+                            placeholder="M4Y 1B6" />
+                    </label>
+                    <div>
+                        <label for="Type">Type of Query:</label>
+                        <div>
+                            <input type="radio" name="option" id="option1" required>
+                            <label for="Question">Question:</label>
+
+                            <div class="reveal-if-active">
+                                <label for="question"></label>
+                                <textarea name="Question" id="question" cols="60" rows="5" maxlength="500"
+                                    placeholder="Question..." class="require-if-active"
+                                    data-require-pair="#options"></textarea>
+                            </div>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="option" id="option2">
+                            <label for="Comment">Comment:</label>
+
+                            <div class="reveal-if-active">
+                                <label for="comment"></label>
+                                <textarea name="Comment" id="comment" cols="60" rows="5" maxlength="500"
+                                    placeholder="Comment..." class="require-if-active"
+                                    data-require-pair="#options"></textarea>
+                            </div>
+                        </div>
+
+                        <div>
+                            <input type="radio" name="option" id="option3">
+                            <label for="Hiring">Hiring</label>
+
+                            <div class="reveal-if-active">
+                                <label for="hiring">Hourly Rate: $</label>
+                                <input type="number" name="Hourly rate" id="rate" autofocus min="0" step="0.25"
+                                    placeholder="Hourly Rate" class="require-if-active" data-require-pair="#options" />
+                            </div>
+                        </div>
+                    </div>
+                </fieldset>
+                <input type="submit" value="Submit" />
+            </form>
+        </section>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="validate.js"></script>
+</body>
+
+</html>
